@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';
+import 'react-tiny-fab/dist/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
