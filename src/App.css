@@ -1,3 +1,10 @@
+@import "pages/login_page/login.css";
+@import "pages/register/register.css";
+@import "components/inline_button/inline_button.css";
+@import "components/input_fields/input.css";
+@import "components/social_logos/social_logos.css";
+@import "components/outline_button/outline_button.css";
+
 .App {
   text-align: center;
 }

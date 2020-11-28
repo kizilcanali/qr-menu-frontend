@@ -1,30 +1,34 @@
-import { Grid, Sticky } from 'semantic-ui-react';
 import './App.css';
-import ItemCard from './components/card.js'
-import CategoryCard from './components/categoryCard.js'
-import FloatingButton from './components/floatingButton.js'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import Register from "./pages/register/register.js";
+import Login from "./pages/login_page/login.js";
+import { AnimatePresence } from "framer-motion";
+import { Menu } from 'semantic-ui-react';
+
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Menu>
+        <Menu.Item>
+          <Link to="/register">Kayıt</Link>
+        </Menu.Item>
+        <Menu.Item>
+          <Link to="/login">Giriş</Link>
+        </Menu.Item>
+      </Menu>
+      <AnimatePresence>
+        <Switch>
+          <Route path="/register">
+            <Register />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+        </Switch>
+      </AnimatePresence>
 
-      <Grid columns={3}>
-        <Grid.Column>
-          <CategoryCard />
-        </Grid.Column>
-        <Grid.Column>
-          <CategoryCard />
-        </Grid.Column>
-        <Grid.Column>
-          <CategoryCard />
-        </Grid.Column>
-      </Grid>
-
-      <FloatingButton />
-
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
-    </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&display=swap');
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-side {
+    background-color: #fca311;
+    height: 100vh;
+  /*  width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side p {
+    color: white;
+}
+
+.giris {
+    color: #fca311;
+    font-weight: bold;
+    font-size: 3.75em;
+    font-family: 'Open Sans';
+    cursor: default;
+    text-align: center;
+}
+
+.email-login {
+    color: rgba(0, 0, 0, 0.43);
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    cursor: default;
+}
+
+.forget-password {
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.kayit-text{
+    font-family: 'Open Sans';
+    margin-top: -42px;
+}

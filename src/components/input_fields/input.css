@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+
+.input {
+    background-color:rgba(229, 229, 229, 0.3);
+    border: none;
+    border-radius: 8px;
+    width: 24vw;
+    height: 6vh;
+    padding-left: 60px;
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.icon {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.45);
+    margin: 10px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+}
+
+.input:focus {
+    outline: none;
+}

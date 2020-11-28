@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+
+.left-side-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCA311;
+    height: 100vh;
+
+}
+
+.right-side-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login-text {
+    font-family: 'Open Sans';
+    color: white;
+    margin-top: 18px;
+}
