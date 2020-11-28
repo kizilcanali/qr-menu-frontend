@@ -55,25 +55,34 @@ function Register() {
       <Grid verticalAlign='middle'>
         <Grid.Row columns={2}>
           <Grid.Column className="left-side-register">
-            <div>
-              <img src={register} alt="kayıt ol görseli"></img>
-              <p className="login-text" >Zaten bir hesabınız var mı?</p>
-              <Link to="/login">
-                <OutlineButton tag="giriş" />
-              </Link>
+            <div className = "parent-vertical-left">
+              <div className = "for-vertical-left-side">
+                <img src={register} alt="kayıt ol görseli"></img>
+                <p className="login-text" >Zaten bir hesabınız var mı?</p>
+                <Link to="/login">
+                  <OutlineButton tag="giriş" />
+                </Link>
+              </div>
             </div>
           </Grid.Column>
           <Grid.Column className="right-side-register">
-            <div>
-              <h1 className="giris">Hesap Oluştur</h1>
-              <SocialLogin />
-              <p className="email-login">veya email ile kayıt olun</p>
-              <Input icon={UserIcon} placeHolder="İsim" />
-              <Input icon={EmailIcon} placeHolder="Email" />
-              <Input icon={PasswordIcon} placeHolder="Parola" />
-              <Input icon={PasswordIcon} placeHolder="Parola Doğrulama" />
-              <InlineButton tag="kayıt ol" />
+            <div className = "parentVertical">
+              <div className = "forVertical">
+                <h1 className="giris">Hesap Oluştur</h1>
+                <SocialLogin />
+                <div className = "input-places">
+                  <p className="email-login">veya email ile kayıt olun</p>
+                  <div className = "inline-input-places">
+                    <Input icon={UserIcon} placeHolder="İsim" />
+                    <Input icon={EmailIcon} placeHolder="Email" />
+                    <Input icon={PasswordIcon} placeHolder="Parola" />
+                    <Input icon={PasswordIcon} placeHolder="Parola Doğrulama" />
+                    <InlineButton tag="kayıt ol" />
+                  </div>
+                </div>
+              </div>
             </div>
+
 
           </Grid.Column>
         </Grid.Row>

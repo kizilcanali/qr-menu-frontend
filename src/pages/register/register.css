@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
-
+body{
+    text-align: center;
+}
 .left-side-register {
     display: flex;
     justify-content: center;
@@ -14,11 +16,43 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    
 }
 
 .login-text {
     font-family: 'Open Sans';
     color: white;
     margin-top: 18px;
+}
+.input-places{
+   margin-right: auto;
+   margin-left: auto;
+
+}
+.inline-input-places{
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.parentVertical{
+    position: relative;
+}
+.forVertical{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: 24%;
+    margin-left: 25%;
+    
+}
+.parent-vertical-left{
+    position: relative;
+}
+.for-vertical-left-side{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: 29%;
+    margin-left: 20%;
 }

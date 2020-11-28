@@ -59,23 +59,34 @@ function Login() {
     >
       <Grid verticalAlign='middle'>
         <Grid.Row columns={2}>
-          <Grid.Column>
-            <h1 className="giris">Giriş</h1>
-            <SocialLogos />
-            <p className="email-login">veya email ile giriş yapın</p>
-            <Input placeHolder="Email" icon={home} />
-            <Input placeHolder="Parola" icon={lock} />
-            <p className="forget-password">Şifreni mi unuttun?</p>
-            <ButtonInlineLogin tag="Giriş" />
+          <Grid.Column className = "left-side">
+            <div className = "parentVertical">
+              <div className = "forVertical">
+                <h1 className="giris">Giriş</h1>
+                <SocialLogos />
+                <div className = "input-places">
+                <p className="email-login">veya email ile giriş yapın</p>
+                  <div className = "inline-input-places">
+                    <Input placeHolder="Email" icon={home} />
+                    <Input placeHolder="Parola" icon={lock} />
+                    <p className="forget-password">Şifreni mi unuttun?</p>
+                    <ButtonInlineLogin tag="Giriş" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
           </Grid.Column>
           <Grid.Column className="right-side">
-            <div>
-              <img src={book} height="400px" width="400px" alt="login görseli"></img>
-              <p className="kayit-text">Bir hesabınız yok mu? Hemen hesap oluşturun.</p>
-              <Link to="/register">
-                <ButtonOutlineRegister tag="Kayıt Ol" />
-              </Link>
+            <div className = "parentVerticalRight">
+              <div className = "forVerticalRightSide">
+                <img src={book} height="400px" width="400px" alt="login görseli"></img>
+                <p className="kayit-text">Bir hesabınız yok mu? Hemen hesap oluşturun.</p>
+                <Link to="/register">
+                  <ButtonOutlineRegister tag="Kayıt Ol" />
+                </Link>
+              </div>
             </div>
           </Grid.Column>
         </Grid.Row>

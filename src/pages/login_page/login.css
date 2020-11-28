@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    
+    height: 100vh;
 }
 
 .right-side {
@@ -49,3 +50,37 @@
     font-family: 'Open Sans';
     margin-top: -42px;
 }
+
+.input-places{
+    margin: 0 auto;
+ }
+
+ .inline-input-places{
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+ }
+
+ .parentVertical{
+    position: relative;
+ }
+ .forVertical{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: 24%;
+    margin-left: 25%;
+ }
+
+ .parentVerticalRight{
+    position: relative;
+ }
+
+ .forVerticalRightSide{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: 22%;
+    margin-left: 25%;
+}
+ 
