@@ -7,6 +7,10 @@
 @import "components/categoryCard/categoryCard.css";
 @import "components/card/card.css";
 @import "pages/home/home.css";
+@import "components/cart-card/cartCard.css";
+@import "pages/cart/cart.css";
+
+
 
 .App {
   text-align: center;
