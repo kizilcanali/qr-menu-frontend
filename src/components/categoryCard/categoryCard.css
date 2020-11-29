@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.image-text{
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    font-size: large;
+}

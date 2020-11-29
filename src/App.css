@@ -4,6 +4,9 @@
 @import "components/input_fields/input.css";
 @import "components/social_logos/social_logos.css";
 @import "components/outline_button/outline_button.css";
+@import "components/categoryCard/categoryCard.css";
+@import "components/card/card.css";
+@import "pages/home/home.css";
 
 .App {
   text-align: center;
