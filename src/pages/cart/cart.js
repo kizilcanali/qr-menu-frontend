@@ -7,7 +7,22 @@ function Cart() {
     return (
         <div className = "home-wrapper">
             <Navbar />
-            <CardInCart />
+            <CardInCart
+               name = "Kerhane Tatlısı"
+               price = "55"
+            />
+            <CardInCart
+               name = "Kıymalı Pide"
+               price = "55"
+            />
+            <CardInCart
+               name = "Şekerpare"
+               price = "55"
+            />
+            <CardInCart
+               name = "Ambalı Tatlısı"
+               price = "55"
+            />
             <FloatingButton />
         </div>
     );
