@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Image, Grid } from 'semantic-ui-react'
-import priceIcon from '../../assets/icons/icons8-price-tag.svg'
 import { ReactComponent as PriceIcon } from '../../assets/icons/icons8-price-tag.svg'
 const ItemCard = () => (
     <Grid style={{ marginLeft: 10 }}>
